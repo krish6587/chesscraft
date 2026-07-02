@@ -14,3 +14,6 @@ This document tracks foundational research, architecture decisions, engine algor
 - Formalized Forsyth-Edwards Notation (FEN) format specification.
 - Structured tokenizer grammar for piece placement, active color, castling, en-passant, halfmove, and fullmove numbers.
 
+## 2026-07-02 (Part 2)
+- Documented validation bounds for rank counts, square occupancy sums, and invalid pawn ranks (1 and 8).
+
