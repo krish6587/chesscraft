@@ -10,3 +10,7 @@ This document tracks foundational research, architecture decisions, engine algor
 - Explored 64-bit unsigned integer (UInt64) bitboard representations.
 - Computed file masks (File A to File H) and rank masks (Rank 1 to Rank 8).
 
+## 2026-07-02 (Part 1)
+- Formalized Forsyth-Edwards Notation (FEN) format specification.
+- Structured tokenizer grammar for piece placement, active color, castling, en-passant, halfmove, and fullmove numbers.
+
