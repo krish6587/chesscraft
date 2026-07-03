@@ -17,3 +17,7 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-02 (Part 2)
 - Documented validation bounds for rank counts, square occupancy sums, and invalid pawn ranks (1 and 8).
 
+## 2026-07-03
+- Generated precomputed lookup tables for knight leaps (8 directions) and king steps (8 directions).
+- Verified boundary wrap-around safety on A-file and H-file.
+
