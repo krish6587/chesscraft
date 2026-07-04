@@ -21,3 +21,7 @@ This document tracks foundational research, architecture decisions, engine algor
 - Generated precomputed lookup tables for knight leaps (8 directions) and king steps (8 directions).
 - Verified boundary wrap-around safety on A-file and H-file.
 
+## 2026-07-04
+- Specified raycast attack vectors for orthogonal (Rook) and diagonal (Bishop) sliders.
+- Outlined queen attacks as union of orthogonal and diagonal attack sets.
+
