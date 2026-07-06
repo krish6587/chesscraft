@@ -29,3 +29,6 @@ This document tracks foundational research, architecture decisions, engine algor
 - Documented king-side and queen-side castling prerequisites.
 - Structured transit square safety checks: king cannot castle out of, through, or into check.
 
+## 2026-07-06 (Part 2)
+- Documented tracking of rook initial movements and capture-induced castling rights revocation.
+
