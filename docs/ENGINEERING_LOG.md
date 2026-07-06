@@ -25,3 +25,7 @@ This document tracks foundational research, architecture decisions, engine algor
 - Specified raycast attack vectors for orthogonal (Rook) and diagonal (Bishop) sliders.
 - Outlined queen attacks as union of orthogonal and diagonal attack sets.
 
+## 2026-07-06 (Part 1)
+- Documented king-side and queen-side castling prerequisites.
+- Structured transit square safety checks: king cannot castle out of, through, or into check.
+
