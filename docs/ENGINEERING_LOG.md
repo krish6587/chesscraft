@@ -36,3 +36,6 @@ This document tracks foundational research, architecture decisions, engine algor
 - Formalized en-passant target square assignment on double-pawn push.
 - Documented single-ply expiration policy for en-passant targets.
 
+## 2026-07-07 (Part 2)
+- Documented rare discovered check scenario where capturing pawn and captured pawn leave 4th/5th rank open to sliding enemy rook.
+
