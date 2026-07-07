@@ -32,3 +32,7 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-06 (Part 2)
 - Documented tracking of rook initial movements and capture-induced castling rights revocation.
 
+## 2026-07-07 (Part 1)
+- Formalized en-passant target square assignment on double-pawn push.
+- Documented single-ply expiration policy for en-passant targets.
+
