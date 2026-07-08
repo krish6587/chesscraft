@@ -39,3 +39,7 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-07 (Part 2)
 - Documented rare discovered check scenario where capturing pawn and captured pawn leave 4th/5th rank open to sliding enemy rook.
 
+## 2026-07-08
+- Specified pawn advancement to 8th rank (White) or 1st rank (Black).
+- Defined candidate promotion pieces: Queen, Rook, Bishop, Knight with tactical underpromotion justifications.
+
