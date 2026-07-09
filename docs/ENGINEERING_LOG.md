@@ -47,3 +47,6 @@ This document tracks foundational research, architecture decisions, engine algor
 - Detailed pin detection algorithm using raycasts between king and attacking sliding pieces.
 - Implemented legal move filtering restricting pinned pieces along ray of pin.
 
+## 2026-07-09 (Part 2)
+- Verified that double-check forces king evasion: no other piece can block two disparate check angles simultaneously.
+
