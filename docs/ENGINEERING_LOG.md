@@ -43,3 +43,7 @@ This document tracks foundational research, architecture decisions, engine algor
 - Specified pawn advancement to 8th rank (White) or 1st rank (Black).
 - Defined candidate promotion pieces: Queen, Rook, Bishop, Knight with tactical underpromotion justifications.
 
+## 2026-07-09 (Part 1)
+- Detailed pin detection algorithm using raycasts between king and attacking sliding pieces.
+- Implemented legal move filtering restricting pinned pieces along ray of pin.
+
