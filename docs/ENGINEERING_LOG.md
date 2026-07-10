@@ -53,3 +53,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-10 (Part 1)
 - Formalized termination logic: 0 legal moves + in check = Checkmate; 0 legal moves + not in check = Stalemate.
 
+## 2026-07-10 (Part 2)
+- Specified FIDE insufficient material rules: K vs K, K+B vs K, K+N vs K, K+B vs K+B (same colored bishops).
+
