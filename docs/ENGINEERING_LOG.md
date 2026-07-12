@@ -56,3 +56,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-10 (Part 2)
 - Specified FIDE insufficient material rules: K vs K, K+B vs K, K+N vs K, K+B vs K+B (same colored bishops).
 
+## 2026-07-12
+- Designed position history buffer comparing board hash, castling rights, and en-passant availability across game tree.
+
