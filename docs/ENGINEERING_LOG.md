@@ -59,3 +59,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-12
 - Designed position history buffer comparing board hash, castling rights, and en-passant availability across game tree.
 
+## 2026-07-13 (Part 1)
+- Outlined half-move clock counter reset conditions: pawn advance or any piece capture.
+
