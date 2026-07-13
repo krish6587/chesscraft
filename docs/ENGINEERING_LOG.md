@@ -62,3 +62,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-13 (Part 1)
 - Outlined half-move clock counter reset conditions: pawn advance or any piece capture.
 
+## 2026-07-13 (Part 2)
+- Documented strict non-claim automatic draw rules per updated FIDE guidelines (75-move and 5-fold repetition).
+
