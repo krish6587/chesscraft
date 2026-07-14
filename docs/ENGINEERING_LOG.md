@@ -65,3 +65,7 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-13 (Part 2)
 - Documented strict non-claim automatic draw rules per updated FIDE guidelines (75-move and 5-fold repetition).
 
+## 2026-07-14
+- Formulated zero-sum two-player game tree evaluation using recursive minimax algorithm.
+- Outlined score perspective inversion (negamax formulation).
+
