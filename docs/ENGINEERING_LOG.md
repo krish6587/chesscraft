@@ -73,3 +73,6 @@ This document tracks foundational research, architecture decisions, engine algor
 - Derived alpha-beta cutoff invariants (beta cutoffs when score >= beta).
 - Documented best-case time complexity reduction from O(b^d) to O(b^(d/2)).
 
+## 2026-07-15 (Part 2)
+- Contrasted fail-hard vs fail-soft implementations and recorded accuracy advantages of returning unconstrained scores.
+
