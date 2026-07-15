@@ -69,3 +69,7 @@ This document tracks foundational research, architecture decisions, engine algor
 - Formulated zero-sum two-player game tree evaluation using recursive minimax algorithm.
 - Outlined score perspective inversion (negamax formulation).
 
+## 2026-07-15 (Part 1)
+- Derived alpha-beta cutoff invariants (beta cutoffs when score >= beta).
+- Documented best-case time complexity reduction from O(b^d) to O(b^(d/2)).
+
