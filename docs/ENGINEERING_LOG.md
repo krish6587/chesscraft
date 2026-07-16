@@ -76,3 +76,7 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-15 (Part 2)
 - Contrasted fail-hard vs fail-soft implementations and recorded accuracy advantages of returning unconstrained scores.
 
+## 2026-07-16 (Part 1)
+- Formulated Most Valuable Victim - Least Valuable Attacker (MVV-LVA) ranking matrix.
+- Prioritized captures by (VictimValue * 10 - AttackerValue).
+
