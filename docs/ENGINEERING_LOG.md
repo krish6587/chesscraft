@@ -80,3 +80,7 @@ This document tracks foundational research, architecture decisions, engine algor
 - Formulated Most Valuable Victim - Least Valuable Attacker (MVV-LVA) ranking matrix.
 - Prioritized captures by (VictimValue * 10 - AttackerValue).
 
+## 2026-07-16 (Part 2)
+- Outlined two killer move slots per ply for quiet moves causing beta cutoffs.
+- Structured history heuristic weighting based on ply depth squared.
+
