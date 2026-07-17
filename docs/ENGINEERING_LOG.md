@@ -84,3 +84,7 @@ This document tracks foundational research, architecture decisions, engine algor
 - Outlined two killer move slots per ply for quiet moves causing beta cutoffs.
 - Structured history heuristic weighting based on ply depth squared.
 
+## 2026-07-17
+- Specified quiescence search algorithm extending tactical capture sequences until a quiet position is reached.
+- Integrated standing pat evaluation as alpha lower bound.
+
