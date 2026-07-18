@@ -88,3 +88,7 @@ This document tracks foundational research, architecture decisions, engine algor
 - Specified quiescence search algorithm extending tactical capture sequences until a quiet position is reached.
 - Integrated standing pat evaluation as alpha lower bound.
 
+## 2026-07-18
+- Defined piece-square tables for Pawns, Knights, Bishops, Rooks, Queens, and King.
+- Separated opening/middlegame tables from endgame tables.
+
