@@ -92,3 +92,6 @@ This document tracks foundational research, architecture decisions, engine algor
 - Defined piece-square tables for Pawns, Knights, Bishops, Rooks, Queens, and King.
 - Separated opening/middlegame tables from endgame tables.
 
+## 2026-07-20 (Part 1)
+- Defined penalty calculations for doubled pawns and isolated pawns lacking neighboring file support.
+
