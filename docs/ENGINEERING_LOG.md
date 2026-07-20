@@ -95,3 +95,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-20 (Part 1)
 - Defined penalty calculations for doubled pawns and isolated pawns lacking neighboring file support.
 
+## 2026-07-20 (Part 2)
+- Structured progressive bonuses for passed pawns based on rank advancement and proximity to friendly king.
+
