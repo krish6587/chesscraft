@@ -102,3 +102,6 @@ This document tracks foundational research, architecture decisions, engine algor
 - Documented king shield penalty for missing f, g, h pawns after castling.
 - Analyzed semi-open and open file penalties against enemy rooks.
 
+## 2026-07-21 (Part 2)
+- Computed attacking piece weights around the king zone (ring of 8 squares) to predict mating attacks.
+
