@@ -98,3 +98,7 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-20 (Part 2)
 - Structured progressive bonuses for passed pawns based on rank advancement and proximity to friendly king.
 
+## 2026-07-21 (Part 1)
+- Documented king shield penalty for missing f, g, h pawns after castling.
+- Analyzed semi-open and open file penalties against enemy rooks.
+
