@@ -105,3 +105,7 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-21 (Part 2)
 - Computed attacking piece weights around the king zone (ring of 8 squares) to predict mating attacks.
 
+## 2026-07-22
+- Formulated safe square destination count bonuses for knights and bishops.
+- Added occupancy incentives for central squares (d4, d5, e4, e5).
+
