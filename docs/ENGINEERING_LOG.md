@@ -109,3 +109,7 @@ This document tracks foundational research, architecture decisions, engine algor
 - Formulated safe square destination count bonuses for knights and bishops.
 - Added occupancy incentives for central squares (d4, d5, e4, e5).
 
+## 2026-07-23 (Part 1)
+- Computed dynamic game phase value (0 = pure endgame, 24 = opening) using non-pawn material counts.
+- Implemented tapered evaluation: eval = (mg_eval * phase + eg_eval * (24 - phase)) / 24.
+
