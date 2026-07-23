@@ -113,3 +113,7 @@ This document tracks foundational research, architecture decisions, engine algor
 - Computed dynamic game phase value (0 = pure endgame, 24 = opening) using non-pawn material counts.
 - Implemented tapered evaluation: eval = (mg_eval * phase + eg_eval * (24 - phase)) / 24.
 
+## 2026-07-23 (Part 2)
+- Documented +35 to +50 centipawn bonus for holding both bishops.
+- Structured penalty for bishop hindered by friendly pawns locked on same color.
+
