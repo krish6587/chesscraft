@@ -117,3 +117,7 @@ This document tracks foundational research, architecture decisions, engine algor
 - Documented +35 to +50 centipawn bonus for holding both bishops.
 - Structured penalty for bishop hindered by friendly pawns locked on same color.
 
+## 2026-07-24 (Part 1)
+- Generated 64x12 pseudo-random 64-bit keys for pieces on squares.
+- Added random keys for side-to-move, 4 castling rights, and 8 en-passant files.
+
