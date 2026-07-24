@@ -121,3 +121,6 @@ This document tracks foundational research, architecture decisions, engine algor
 - Generated 64x12 pseudo-random 64-bit keys for pieces on squares.
 - Added random keys for side-to-move, 4 castling rights, and 8 en-passant files.
 
+## 2026-07-24 (Part 2)
+- Verified constant time O(1) hash recalculation per move: hash ^= PieceKey(from) ^ PieceKey(to).
+
