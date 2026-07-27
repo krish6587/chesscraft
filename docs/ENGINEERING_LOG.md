@@ -127,3 +127,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-27 (Part 1)
 - Structured 16-byte TT entry: 64-bit key, 16-bit score, 16-bit bestMove, 8-bit depth, 8-bit node flag (Exact, LowerBound, UpperBound), 8-bit age.
 
+## 2026-07-27 (Part 2)
+- Specified mate score normalization (mate_score +/- ply) to keep evaluation valid across differing search depths.
+
