@@ -124,3 +124,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-24 (Part 2)
 - Verified constant time O(1) hash recalculation per move: hash ^= PieceKey(from) ^ PieceKey(to).
 
+## 2026-07-27 (Part 1)
+- Structured 16-byte TT entry: 64-bit key, 16-bit score, 16-bit bestMove, 8-bit depth, 8-bit node flag (Exact, LowerBound, UpperBound), 8-bit age.
+
