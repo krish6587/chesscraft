@@ -130,3 +130,7 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-27 (Part 2)
 - Specified mate score normalization (mate_score +/- ply) to keep evaluation valid across differing search depths.
 
+## 2026-07-28
+- Outlined iterative deepening search from depth 1 to maximum target depth.
+- Structured time check interrupt checking elapsed time vs budgeted move time.
+
