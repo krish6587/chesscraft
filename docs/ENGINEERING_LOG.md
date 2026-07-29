@@ -134,3 +134,7 @@ This document tracks foundational research, architecture decisions, engine algor
 - Outlined iterative deepening search from depth 1 to maximum target depth.
 - Structured time check interrupt checking elapsed time vs budgeted move time.
 
+## 2026-07-29 (Part 1)
+- Formulated zero-window null window search [alpha, alpha + 1] for non-PV nodes.
+- Outlined null move heuristic with reduction factor R = 2 or R = 3 (avoiding zugzwang in endgames).
+
