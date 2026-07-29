@@ -138,3 +138,6 @@ This document tracks foundational research, architecture decisions, engine algor
 - Formulated zero-window null window search [alpha, alpha + 1] for non-PV nodes.
 - Outlined null move heuristic with reduction factor R = 2 or R = 3 (avoiding zugzwang in endgames).
 
+## 2026-07-29 (Part 2)
+- Structured logarithmic reduction formula for quiet moves ordered late in the move list.
+
