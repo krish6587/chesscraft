@@ -141,3 +141,7 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-07-29 (Part 2)
 - Structured logarithmic reduction formula for quiet moves ordered late in the move list.
 
+## 2026-07-31
+- Documented standard benchmark positions (Initial position, Kiwipete, Silver Suite).
+- Set baseline NPS (nodes per second) target across evaluation kernels.
+
