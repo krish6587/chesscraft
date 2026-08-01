@@ -145,3 +145,7 @@ This document tracks foundational research, architecture decisions, engine algor
 - Documented standard benchmark positions (Initial position, Kiwipete, Silver Suite).
 - Set baseline NPS (nodes per second) target across evaluation kernels.
 
+## 2026-08-01
+- Formalized Seven Tag Roster (Event, Site, Date, Round, White, Black, Result).
+- Structured SAN (Standard Algebraic Notation) move serialization format.
+
