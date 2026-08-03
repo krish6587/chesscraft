@@ -149,3 +149,6 @@ This document tracks foundational research, architecture decisions, engine algor
 - Formalized Seven Tag Roster (Event, Site, Date, Round, White, Black, Result).
 - Structured SAN (Standard Algebraic Notation) move serialization format.
 
+## 2026-08-03 (Part 1)
+- Structured disambiguation precedence: file letter first, rank number second, both if necessary (e.g., Rad1, R1d1, Qh4e1).
+
