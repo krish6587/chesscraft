@@ -152,3 +152,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-03 (Part 1)
 - Structured disambiguation precedence: file letter first, rank number second, both if necessary (e.g., Rad1, R1d1, Qh4e1).
 
+## 2026-08-03 (Part 2)
+- Documented NAG standards ($1 = !, $2 = ?, $3 = !!, $4 = ??, $14 = White slight advantage).
+
