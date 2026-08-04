@@ -155,3 +155,7 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-03 (Part 2)
 - Documented NAG standards ($1 = !, $2 = ?, $3 = !!, $4 = ??, $14 = White slight advantage).
 
+## 2026-08-04 (Part 1)
+- Formulated Fischer increment (time added before or after turn).
+- Documented USCF Bronstein delay and simple delay mechanics.
+
