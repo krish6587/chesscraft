@@ -159,3 +159,6 @@ This document tracks foundational research, architecture decisions, engine algor
 - Formulated Fischer increment (time added before or after turn).
 - Documented USCF Bronstein delay and simple delay mechanics.
 
+## 2026-08-04 (Part 2)
+- Designed server-side timestamp validation buffer (up to 200ms grace period for network jitter).
+
