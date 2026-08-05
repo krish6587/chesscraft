@@ -162,3 +162,7 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-04 (Part 2)
 - Designed server-side timestamp validation buffer (up to 200ms grace period for network jitter).
 
+## 2026-08-05
+- Structured Elo rating formula: Expected = 1 / (1 + 10^((R_opponent - R_player)/400)).
+- Outlined dynamic K-factor assignment (K=40 for new players, K=20 for regular, K=10 for master level).
+
