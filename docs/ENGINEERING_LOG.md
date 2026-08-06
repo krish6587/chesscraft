@@ -169,3 +169,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-06 (Part 1)
 - Documented Glicko-2 RD inflation over player inactivity periods.
 
+## 2026-08-06 (Part 2)
+- Designed matchmaking pool expansion algorithm: initial +/- 50 Elo, expanding by 25 Elo every 5 seconds up to +/- 250.
+
