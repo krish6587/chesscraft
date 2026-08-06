@@ -166,3 +166,6 @@ This document tracks foundational research, architecture decisions, engine algor
 - Structured Elo rating formula: Expected = 1 / (1 + 10^((R_opponent - R_player)/400)).
 - Outlined dynamic K-factor assignment (K=40 for new players, K=20 for regular, K=10 for master level).
 
+## 2026-08-06 (Part 1)
+- Documented Glicko-2 RD inflation over player inactivity periods.
+
