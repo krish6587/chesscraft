@@ -175,3 +175,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-07 (Part 1)
 - Outlined client-to-hub SignalR methods: JoinGame, MakeMove, OfferDraw, Resign, SyncClock.
 
+## 2026-08-07 (Part 2)
+- Formulated Hub-to-client events: MoveExecuted, ClockTicked, DrawOffered, GameConcluded, PlayerReconnected.
+
