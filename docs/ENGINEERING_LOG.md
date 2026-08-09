@@ -178,3 +178,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-07 (Part 2)
 - Formulated Hub-to-client events: MoveExecuted, ClockTicked, DrawOffered, GameConcluded, PlayerReconnected.
 
+## 2026-08-09
+- Outlined Centipawn Loss (ACPL) computation comparing player moves against Stockfish top-engine choices.
+
