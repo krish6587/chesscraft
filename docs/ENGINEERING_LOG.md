@@ -181,3 +181,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-09
 - Outlined Centipawn Loss (ACPL) computation comparing player moves against Stockfish top-engine choices.
 
+## 2026-08-10 (Part 1)
+- Documented statistical variance metrics: human players deliberate on critical moves; engine users exhibit flat standard deviations.
+
