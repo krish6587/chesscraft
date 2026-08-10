@@ -184,3 +184,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-10 (Part 1)
 - Documented statistical variance metrics: human players deliberate on critical moves; engine users exhibit flat standard deviations.
 
+## 2026-08-10 (Part 2)
+- Formulated client-side window blur and visibility change telemetry for integrity auditing.
+
