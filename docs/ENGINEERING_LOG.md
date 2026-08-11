@@ -187,3 +187,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-10 (Part 2)
 - Formulated client-side window blur and visibility change telemetry for integrity auditing.
 
+## 2026-08-11 (Part 1)
+- Defined puzzle JSON model: PuzzleId, FEN, Moves (UCI string array), Rating, RatingDeviation, Themes.
+
