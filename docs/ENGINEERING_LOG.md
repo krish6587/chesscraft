@@ -190,3 +190,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-11 (Part 1)
 - Defined puzzle JSON model: PuzzleId, FEN, Moves (UCI string array), Rating, RatingDeviation, Themes.
 
+## 2026-08-11 (Part 2)
+- Categorized 25 standard tactical motifs: Fork, Pin, Skewer, Deflection, Decoy, Interference, Clearance, Double Check.
+
