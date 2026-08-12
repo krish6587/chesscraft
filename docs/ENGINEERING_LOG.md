@@ -193,3 +193,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-11 (Part 2)
 - Categorized 25 standard tactical motifs: Fork, Pin, Skewer, Deflection, Decoy, Interference, Clearance, Double Check.
 
+## 2026-08-12
+- Enforced unique winning move requirement: eval difference between best move and second-best move must exceed 200 centipawns.
+
