@@ -196,3 +196,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-12
 - Enforced unique winning move requirement: eval difference between best move and second-best move must exceed 200 centipawns.
 
+## 2026-08-13 (Part 1)
+- Designed relational schemas for Users, UserProfiles, Games, GameMoves, and RefreshTokens.
+
