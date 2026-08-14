@@ -202,3 +202,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-13 (Part 2)
 - Added composite index specifications on Games(WhitePlayerId, CreatedAt) and Games(BlackPlayerId, CreatedAt).
 
+## 2026-08-14 (Part 1)
+- Drafted endpoints: POST /api/auth/register, POST /api/auth/login, POST /api/auth/refresh.
+
