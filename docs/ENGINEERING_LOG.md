@@ -205,3 +205,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-14 (Part 1)
 - Drafted endpoints: POST /api/auth/register, POST /api/auth/login, POST /api/auth/refresh.
 
+## 2026-08-14 (Part 2)
+- Drafted endpoints: GET /api/games/{id}, GET /api/users/{username}/games, GET /api/leaderboard.
+
