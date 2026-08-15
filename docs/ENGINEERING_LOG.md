@@ -208,3 +208,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-14 (Part 2)
 - Drafted endpoints: GET /api/games/{id}, GET /api/users/{username}/games, GET /api/leaderboard.
 
+## 2026-08-15
+- Structured design tokens: Dark square (#769656), Light square (#eeeed2), Selected square (#baca2b), Last move (#f5f682).
+
