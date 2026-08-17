@@ -211,3 +211,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-15
 - Structured design tokens: Dark square (#769656), Light square (#eeeed2), Selected square (#baca2b), Last move (#f5f682).
 
+## 2026-08-17 (Part 1)
+- Outlined pointer events abstraction supporting desktop mouse drag and mobile touch tap-to-move.
+
