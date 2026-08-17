@@ -214,3 +214,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-17 (Part 1)
 - Outlined pointer events abstraction supporting desktop mouse drag and mobile touch tap-to-move.
 
+## 2026-08-17 (Part 2)
+- Designed responsive overlay dialog presenting Queen, Knight, Rook, Bishop upon reaching 8th rank.
+
