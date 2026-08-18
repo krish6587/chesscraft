@@ -217,3 +217,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-17 (Part 2)
 - Designed responsive overlay dialog presenting Queen, Knight, Rook, Bishop upon reaching 8th rank.
 
+## 2026-08-18 (Part 1)
+- Defined sound assets: move-self.mp3, move-check.mp3, capture.mp3, castle.mp3, promote.mp3, game-end.mp3.
+
