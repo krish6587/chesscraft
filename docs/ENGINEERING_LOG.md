@@ -220,3 +220,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-18 (Part 1)
 - Defined sound assets: move-self.mp3, move-check.mp3, capture.mp3, castle.mp3, promote.mp3, game-end.mp3.
 
+## 2026-08-18 (Part 2)
+- Structured two-column SAN move list with forward/back keyboard navigation (ArrowLeft, ArrowRight).
+
