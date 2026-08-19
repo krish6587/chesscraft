@@ -223,3 +223,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-18 (Part 2)
 - Structured two-column SAN move list with forward/back keyboard navigation (ArrowLeft, ArrowRight).
 
+## 2026-08-19
+- Researched Polyglot .bin opening book structure (16 bytes per entry: 8-byte hash, 2-byte move, 2-byte weight, 4-byte learn).
+
