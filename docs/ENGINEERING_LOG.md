@@ -226,3 +226,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-19
 - Researched Polyglot .bin opening book structure (16 bytes per entry: 8-byte hash, 2-byte move, 2-byte weight, 4-byte learn).
 
+## 2026-08-20 (Part 1)
+- Implemented weighted probabilistic sampling over multiple book candidate moves.
+
