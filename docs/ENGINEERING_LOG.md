@@ -235,3 +235,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-21 (Part 1)
 - Outlined test suites covering en-passant legality, castling prevention through check, and stalemate detection.
 
+## 2026-08-21 (Part 2)
+- Documented standard perft test nodes: Depth 1 (20), Depth 2 (400), Depth 3 (8,902), Depth 4 (197,281), Depth 5 (4,865,609).
+
