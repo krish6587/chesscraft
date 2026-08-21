@@ -232,3 +232,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-20 (Part 2)
 - Analyzed Win-Draw-Loss (WDL) and Distance-To-Zero (DTZ) tablebases for up to 5-piece and 6-piece endgames.
 
+## 2026-08-21 (Part 1)
+- Outlined test suites covering en-passant legality, castling prevention through check, and stalemate detection.
+
