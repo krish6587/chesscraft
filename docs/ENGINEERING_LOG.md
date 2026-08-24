@@ -241,3 +241,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-24 (Part 1)
 - Structured project layers: Domain (entities, enums) <- Application (interfaces, services) <- Infrastructure (EF Core, Db) <- API (Controllers, Hubs).
 
+## 2026-08-24 (Part 2)
+- Outlined IGameRepository, IUserRepository, IPuzzleRepository and unit-of-work patterns.
+
