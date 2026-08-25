@@ -244,3 +244,7 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-24 (Part 2)
 - Outlined IGameRepository, IUserRepository, IPuzzleRepository and unit-of-work patterns.
 
+## 2026-08-25 (Part 1)
+- Structured JWT payload: sub (UserId), name (Username), email, role, exp.
+- Specified cryptographically secure 256-bit refresh token rotation with family revocation on reuse.
+
