@@ -248,3 +248,6 @@ This document tracks foundational research, architecture decisions, engine algor
 - Structured JWT payload: sub (UserId), name (Username), email, role, exp.
 - Specified cryptographically secure 256-bit refresh token rotation with family revocation on reuse.
 
+## 2026-08-25 (Part 2)
+- Outlined password security specs: BCrypt with salt generation and minimum cost factor of 12.
+
