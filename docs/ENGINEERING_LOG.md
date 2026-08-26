@@ -251,3 +251,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-25 (Part 2)
 - Outlined password security specs: BCrypt with salt generation and minimum cost factor of 12.
 
+## 2026-08-26 (Part 1)
+- Designed multi-stage Dockerfile: SDK image for compilation and lightweight ASP.NET runtime for container execution.
+
