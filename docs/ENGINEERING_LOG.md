@@ -254,3 +254,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-26 (Part 1)
 - Designed multi-stage Dockerfile: SDK image for compilation and lightweight ASP.NET runtime for container execution.
 
+## 2026-08-26 (Part 2)
+- Structured frontend production bundle: code-splitting, tree-shaking, and gzip/brotli compression.
+
