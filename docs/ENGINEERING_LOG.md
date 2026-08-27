@@ -257,3 +257,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-26 (Part 2)
 - Structured frontend production bundle: code-splitting, tree-shaking, and gzip/brotli compression.
 
+## 2026-08-27
+- Specified ASP.NET health check endpoints (/healthz) checking PostgreSQL connectivity and SignalR hub status.
+
