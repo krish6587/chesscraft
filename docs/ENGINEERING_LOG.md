@@ -260,3 +260,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-27
 - Specified ASP.NET health check endpoints (/healthz) checking PostgreSQL connectivity and SignalR hub status.
 
+## 2026-08-28 (Part 1)
+- Drafted CI pipeline: dotnet test execution, frontend vitest/jest run, and build validation.
+
