@@ -263,3 +263,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-28 (Part 1)
 - Drafted CI pipeline: dotnet test execution, frontend vitest/jest run, and build validation.
 
+## 2026-08-28 (Part 2)
+- Configured automated semantic versioning and release notes generator.
+
