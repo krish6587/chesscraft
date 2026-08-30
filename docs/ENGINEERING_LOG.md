@@ -266,3 +266,6 @@ This document tracks foundational research, architecture decisions, engine algor
 ## 2026-08-28 (Part 2)
 - Configured automated semantic versioning and release notes generator.
 
+## 2026-08-30
+- Consolidated milestone checklist: Engine v1.0, SignalR Live Hub, Puzzle System, and Dockerized Deployments.
+
