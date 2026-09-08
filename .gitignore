@@ -1,0 +1,40 @@
+# Build outputs & temporary binaries
+**/bin/
+**/obj/
+**/bin_dev/
+**/bin_out/
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Archive files
+*.zip
+*.tar.gz
+*.7z
+
+# Node modules & frontend builds
+**/node_modules/
+**/dist/
+**/.vite/
+
+# IDE & Editor caches
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Environment files
+*.env
+*.env.local
+*.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
