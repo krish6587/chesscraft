@@ -1,0 +1,35 @@
+.captured-pieces-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 24px;
+}
+
+.captured-icons-group {
+  display: flex;
+  align-items: center;
+  margin-left: -4px;
+}
+
+.captured-mini-piece {
+  width: 20px;
+  height: 20px;
+  margin-left: -6px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+  transition: transform var(--transition-fast);
+}
+
+.captured-mini-piece:hover {
+  transform: translateY(-2px) scale(1.15);
+  z-index: 10;
+}
+
+.material-advantage-pill {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--emerald);
+  background: var(--emerald-subtle);
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}

@@ -1,0 +1,136 @@
+.chess-square-cell {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+/* Light / Dark Cells Default (Slate) */
+.cell-light {
+  background-color: #cbd5e1;
+}
+
+.cell-dark {
+  background-color: #475569;
+}
+
+/* Emerald Arena Theme */
+.theme-emerald .cell-light {
+  background-color: #d1fae5;
+}
+.theme-emerald .cell-dark {
+  background-color: #059669;
+}
+
+/* Obsidian Night Theme */
+.theme-obsidian .cell-light {
+  background-color: #334155;
+}
+.theme-obsidian .cell-dark {
+  background-color: #0f172a;
+}
+
+/* Vintage Timber / Wood Theme */
+.theme-wood .cell-light {
+  background-color: #fde68a;
+}
+.theme-wood .cell-dark {
+  background-color: #b45309;
+}
+
+/* Coordinates */
+.cell-coord-rank {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 1;
+  pointer-events: none;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.cell-dark .cell-coord-rank {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.cell-coord-file {
+  position: absolute;
+  bottom: 3px;
+  right: 4px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 1;
+  pointer-events: none;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.cell-dark .cell-coord-file {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+/* Selected Square Glow */
+.cell-selected {
+  background-color: rgba(16, 185, 129, 0.5) !important;
+  box-shadow: inset 0 0 14px rgba(16, 185, 129, 0.6);
+}
+
+/* Last Move Square */
+.cell-last-move {
+  background-color: rgba(245, 158, 11, 0.35) !important;
+}
+
+/* King In Check Crimson Glow */
+.cell-in-check {
+  background: radial-gradient(circle, rgba(244, 63, 94, 0.8) 0%, rgba(225, 29, 72, 0.4) 70%) !important;
+  animation: pulseGlow 1.5s infinite ease-in-out;
+}
+
+/* Piece SVG Wrapper */
+.chess-piece-wrapper {
+  width: 82%;
+  height: 82%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: transform var(--transition-fast);
+}
+
+.chess-square-cell:hover .chess-piece-wrapper {
+  transform: scale(1.05);
+}
+
+.chess-piece-svg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
+}
+
+/* Legal Move Dot Marker */
+.legal-move-marker-dot {
+  position: absolute;
+  width: 28%;
+  height: 28%;
+  border-radius: 50%;
+  background-color: rgba(16, 185, 129, 0.6);
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+  pointer-events: none;
+  z-index: 3;
+}
+
+/* Legal Move Capture Ring */
+.legal-move-capture-ring {
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  border: 4px solid rgba(244, 63, 94, 0.7);
+  box-shadow: 0 0 12px rgba(244, 63, 94, 0.5);
+  pointer-events: none;
+  z-index: 3;
+}
