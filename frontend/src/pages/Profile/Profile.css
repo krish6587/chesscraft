@@ -1,0 +1,296 @@
+.profile-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* Header Banner */
+.profile-header-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-glass-card);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  padding: 32px;
+  box-shadow: var(--shadow-lg);
+}
+
+.profile-header-left {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.profile-avatar-giant {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  box-shadow: 0 0 25px rgba(16, 185, 129, 0.35);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.profile-online-badge {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--emerald);
+  border: 3px solid var(--bg-surface);
+  box-shadow: 0 0 8px var(--emerald);
+}
+
+.profile-user-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.profile-name-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-username {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+}
+
+.profile-details-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.profile-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+/* Ratings Grid */
+.profile-ratings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.rating-discipline-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rating-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.discipline-name {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.discipline-rating {
+  font-family: var(--font-display);
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.2;
+}
+
+.discipline-stats {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+/* Breakdown Grid */
+.profile-breakdown-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+/* Win Ratio Bar */
+.win-ratio-bar {
+  display: flex;
+  height: 12px;
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  background: var(--bg-surface);
+  margin-bottom: 16px;
+}
+
+.ratio-segment.win {
+  background: var(--emerald);
+}
+
+.ratio-segment.draw {
+  background: var(--amber);
+}
+
+.ratio-segment.loss {
+  background: var(--rose);
+}
+
+.ratio-legend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.legend-dot.win {
+  background: var(--emerald);
+}
+
+.legend-dot.draw {
+  background: var(--amber);
+}
+
+.legend-dot.loss {
+  background: var(--rose);
+}
+
+.legend-label {
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+}
+
+.combat-stats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 16px;
+}
+
+.combat-stat-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.combat-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.combat-val {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+/* Achievements */
+.achievements-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.achievement-item-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px;
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+}
+
+.achievement-item-row.locked {
+  opacity: 0.5;
+}
+
+.achievement-icon-bubble {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.achievement-icon-bubble.emerald {
+  background: var(--emerald-subtle);
+  color: var(--emerald);
+}
+
+.achievement-icon-bubble.cyan {
+  background: var(--cyan-subtle);
+  color: var(--cyan);
+}
+
+.achievement-icon-bubble.amber {
+  background: var(--amber-subtle);
+  color: var(--amber);
+}
+
+.achievement-icon-bubble.purple {
+  background: var(--purple-subtle);
+  color: var(--purple);
+}
+
+.achievement-meta {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.achievement-title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.achievement-desc {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 900px) {
+  .profile-header-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .profile-breakdown-grid {
+    grid-template-columns: 1fr;
+  }
+}
